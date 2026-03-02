@@ -25,17 +25,11 @@ class MerchantRelationshipLinkListWidget extends AbstractWidget
         $this->addMerchantRelationshipsParameter($merchantRelationshipTransfers);
     }
 
-    /**
-     * @return string
-     */
     public static function getName(): string
     {
         return 'MerchantRelationshipLinkListWidget';
     }
 
-    /**
-     * @return string
-     */
     public static function getTemplate(): string
     {
         return '@MerchantRelationshipWidget/views/merchant-relationship-link-list/merchant-relationship-link-list.twig';
